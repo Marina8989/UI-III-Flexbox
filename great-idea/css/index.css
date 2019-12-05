@@ -162,6 +162,10 @@ h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+body {
+    margin: 0 4% 4% 4%;
+}
+
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -191,6 +195,7 @@ header {
     display: flex;
     justify-items: space-around;
     margin-top: 150px;
+    margin-bottom: 100px;
 }
 
 header h1 {
@@ -208,51 +213,13 @@ header p {
     margin: 70px 200px 0 270px;
 }
 
-
-/* header {
-    margin: 120px;
-}
-
-.header-div {
-    display: inline-block;
-}
-
-.header-div {
-    width: 65%;
-    margin: 0 auto;
-}
-
-.header-div h1 {
-    font-size: 80px;
-    text-align: center;
-}
-
-.header-div p {
-    text-align: center;
-    border: 1px solid grey;
-    display: inline-block;
-    margin-left: 38%;
-    padding: 3px 40px;
-}
-
-header img {
-    width: 33%;
-    margin: 0 auto;
-}
-
 .sectionOne {
-    margin: 45px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
-.divOne {
-    display: inline-block;
-    width: 48%;
-    margin-right: 40px;
-}
-
-.divTwo {
-    display: inline-block;
-    width: 48%;
+.sectionOne-div {
+    margin: 45px 0 45px 0;
 }
 
 .middle-img {
@@ -260,34 +227,19 @@ header img {
 }
 
 .sectionTwo {
-    margin: 45px 0;
+    display: flex;
+    margin: 45px 0 45px 0;
 }
 
-.div1 {
-    display: inline-block;
-    width: 32%;
-    margin-right: 12px;
+.sectionTwo p {
+    margin-right: 10px;
 }
 
-.div2 {
-    display: inline-block;
-    width: 32%;
-    margin-right: 12px;
-}
-
-.div3 {
-    display: inline-block;
-    width: 32%;
-    margin-left: 12px;
-}
-
-.sectionThree {
-    margin: 45px 0;
+address {
+    margin: 45px 0 45px 0;
 }
 
 footer {
-    margin: 55px 0;
     text-align: center;
+    margin: 70px 0 70px 0;
 }
-
-*/
