@@ -170,7 +170,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
-    background: rgb(0, 172, 230);
+    background: rgba(0, 172, 230, .3);
     height: 90px;
     padding-top: 11px;
     position: fixed;
@@ -246,3 +246,46 @@ footer {
 
 
 /* Services CSS Starts here */
+
+.services-header-img {
+    margin-top: 150px;
+    width: 100%;
+}
+
+.services-sectionOne {
+    margin: 45px 0 45px 0;
+}
+
+.services-sectionTwo {
+    display: flex;
+    flex-direction: row;
+}
+
+.services-sectionTwo div {
+    background: lightgrey;
+    border: 1px solid grey;
+}
+
+.sectionThree {
+    display: flex;
+    margin: 45px 0 45px 0;
+}
+
+.sectionThree div {
+    width: 70%;
+    margin-right: 60px;
+}
+
+.div-flex {
+    display: flex;
+}
+
+ul {
+    margin-top: 30px;
+    line-height: 23px;
+}
+
+ul li {
+    list-style-type: square;
+    margin-left: 20px;
+}
