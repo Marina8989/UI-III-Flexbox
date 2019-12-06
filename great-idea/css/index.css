@@ -252,18 +252,59 @@ footer {
     width: 100%;
 }
 
+.services-sectionTwo {
+    margin-bottom: 45px;
+}
+
 .services-sectionOne {
     margin: 45px 0 45px 0;
 }
 
-.services-sectionTwo {
+.columnOne {
     display: flex;
-    flex-direction: row;
+    margin-top: 30px;
 }
 
-.services-sectionTwo div {
+.columnOne div {
     background: lightgrey;
-    border: 1px solid grey;
+    border: 1px solid black;
+    padding: 25px;
+}
+
+.digital {
+    margin-right: 30px;
+}
+
+.par {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 120px;
+    text-align: center;
+    margin-top: 18px;
+    background: white;
+}
+
+.columnTwo {
+    display: flex;
+    margin-top: 30px;
+}
+
+.columnTwo div {
+    background: lightgrey;
+    border: 1px solid black;
+    padding: 25px;
+}
+
+.columnThree {
+    display: flex;
+    margin-top: 30px;
+}
+
+.columnThree div {
+    background: lightgrey;
+    border: 1px solid black;
+    padding: 25px;
 }
 
 .sectionThree {
@@ -274,10 +315,6 @@ footer {
 .sectionThree div {
     width: 70%;
     margin-right: 60px;
-}
-
-.div-flex {
-    display: flex;
 }
 
 ul {
