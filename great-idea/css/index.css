@@ -276,7 +276,7 @@ footer {
 }
 
 .par {
-    border: 1px solid black;
+    border: 1px solid grey;
     border-radius: 5px;
     padding: 5px;
     width: 120px;
@@ -325,4 +325,39 @@ ul {
 ul li {
     list-style-type: square;
     margin-left: 20px;
+}
+
+
+/* Media Queries for Services Page */
+
+@media (max-width: 668px) {
+    nav {
+        background: grey;
+    }
+    .nav a {
+        color: white;
+        margin-top: 20px;
+    }
+    .logo {
+        display: none;
+    }
+    .columnOne,
+    .columnTwo,
+    .columnThree {
+        display: inline;
+    }
+    .digital {
+        margin: 15px;
+        width: 90%;
+    }
+    .digital2 {
+        margin: 15px;
+        width: 90%;
+    }
+    .services-info-img {
+        display: none;
+    }
+    .sectionThree div {
+        margin: 0 auto;
+    }
 }
